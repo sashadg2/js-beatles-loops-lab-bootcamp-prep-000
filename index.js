@@ -20,5 +20,6 @@ function iLoveTheBeatles(num) {
   do {
     empArr.push('I love the Beatles!')
     num = num+1
-  } while num < 15
+  } while (num < 15);
+  return empArr
 }
