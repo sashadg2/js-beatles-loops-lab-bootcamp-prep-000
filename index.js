@@ -8,7 +8,7 @@ function theBeatlesPlay(arr1,arr2) {
 
 function johnLennonFacts(facts) {
   var num = 0
-  while (num < facts.length-1) {
+  while (num < facts.length) {
     facts[num] = facts[num] + "!!!"
     num = num+1
   }
